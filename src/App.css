@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
 .App{
     text-align: center;
 }
@@ -11,10 +16,7 @@
     color: aliceblue;
     font-size: 2em;
     width: 100%;
-    position:fixed;
-    top:0;
-    left: 0;
-     
+    padding: 0.4em !important;
 }
 
 .count
