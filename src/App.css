@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-*{
-    margin: 0px !important;
-    padding: 0px !important;
-}
-
 .App{
     text-align: center;
 }
@@ -16,11 +11,13 @@
     color: aliceblue;
     font-size: 2em;
     width: 100%;
-    padding: 0.4em !important;
+    position:fixed;
+    top:0;
+    left: 0;
+     
 }
 
-.count
-{
+.count{
     display: relative;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -29,6 +26,7 @@
 }
 
 button{
+    cursor: pointer;
     justify-content: center;
     color: aliceblue;
     font-size: 4em;
@@ -38,4 +36,9 @@ button{
     border: 0;
     align-items:center;
     margin: 10px 20px 20px 20px;
+}
+
+.text{
+    margin: 2em;
+    font-size: 1.5em;
 }
